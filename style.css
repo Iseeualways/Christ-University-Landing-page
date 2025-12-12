@@ -915,7 +915,7 @@ footer {
 
 /* Why Choose Cards */
 .wc-card {
-    background: #ffffff;
+   
     border-radius: 20px;
     padding: 30px 25px;
     position: relative;
@@ -1675,3 +1675,4 @@ footer h6 {
     }
 
 }
+

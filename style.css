@@ -921,7 +921,7 @@ footer {
     position: relative;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.136);
     transition: 0.3s ease;
-    background-image: url('https://i.imgur.com/pB2wzjV.png');
+    
     /* subtle abstract map */
     background-size: cover;
     background-position: center;
@@ -1673,4 +1673,5 @@ footer h6 {
     .cert-card {
         min-height: 230px;
     }
+
 }

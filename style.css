@@ -229,6 +229,12 @@ footer {
 
 .nav-link {
     font-size: 18px;
+    transition: all 0.4s ease !important;
+}
+
+.nav-link:hover{
+    color: var(--brand) !important;
+    
 }
 
 .brand-logo img {
@@ -885,11 +891,13 @@ footer {
 /* Odd cards */
 .row .col-md-4:nth-child(odd) .wc-card {
     background-color: #e8f4ff !important;
+    border-bottom: 4px solid var(--soft);
 }
 
 /* Even cards */
 .row .col-md-4:nth-child(even) .wc-card {
     background-color: #fff8e2 !important;
+    border-bottom: 4px solid var(--brand);
 }
 
 
@@ -915,13 +923,13 @@ footer {
 
 /* Why Choose Cards */
 .wc-card {
-   
+    background: #ffffff;
     border-radius: 20px;
     padding: 30px 25px;
     position: relative;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.136);
     transition: 0.3s ease;
-    
+  
     /* subtle abstract map */
     background-size: cover;
     background-position: center;
@@ -1327,16 +1335,18 @@ footer h6 {
     flex-direction: column;
 }
 
-/* Card Base */
+/* Card Base Ani*/
+
 .uni-card {
     background: #0d111a;
     padding: 28px;
     border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.06);
-    transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: all 0.45s ease cubic-bezier(0.22, 1, 0.36, 1);
     position: relative;
     overflow: hidden;
     transform: translateZ(0);
+    border-bottom: 8px solid rgb(103, 94, 72);
 }
 
 /* Gold + Blue Border Highlight (super clean) */
@@ -1673,6 +1683,4 @@ footer h6 {
     .cert-card {
         min-height: 230px;
     }
-
 }
-

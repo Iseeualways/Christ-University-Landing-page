@@ -899,6 +899,9 @@ footer {
     background-color: #fff8e2 !important;
     border-bottom: 4px solid var(--brand);
 }
+.extra-space {
+    row-gap: 35px !important;  
+}
 
 
 .wc-card {
